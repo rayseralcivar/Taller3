@@ -1,3 +1,1 @@
-print("HOLA MUNDO LOL")
-x=10
-print(x)
+x=("HOLA MUNDO LOL")
