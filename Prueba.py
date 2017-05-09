@@ -1,10 +1,3 @@
-def mayor(lista):
-    l=0
-    for m in lista:
-        if m > l:
-            l = m
-    print(m)
-
 def delPar(lista):
     for i in lista:
         if lista.index(i)%2 == 0:
@@ -27,3 +20,9 @@ for i in lista:
         lista.remove(i)
         lista.insert(l, b)
 print("nueva lista:", lista)
+
+l=0
+for m in lista:
+    if m > l:
+        l = m
+print("el numero mayor es,",l)
