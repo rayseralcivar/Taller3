@@ -4,14 +4,15 @@ def mayor(lista):
     print(m)
 
 
-def cambiar(lista, a, b):
-    print("lista original:", lista)
-    for i in lista:
-        if i < a:
-            l = lista.index(i)
-            lista.remove(i)
-            lista.insert(l, b)
-    print("nueva lista:", lista)
+
+print("lista original:", lista)
+for i in lista:
+    if i < a:
+        l = lista.index(i)
+        lista.remove(i)
+        lista.insert(l, b)
+print("nueva lista:", lista)
+
 
 def delPar(lista):
     for i in lista:
