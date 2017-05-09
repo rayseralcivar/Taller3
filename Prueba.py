@@ -13,6 +13,12 @@ def cambiar(lista, a, b):
             lista.insert(l, b)
     print("nueva lista:", lista)
 
+def delPar(lista):
+    for i in lista:
+        if lista.index(i)%2 == 0:
+            lista.remove(i)
+    print(lista)
+
 
 a = 0
 b = 0
