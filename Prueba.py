@@ -7,7 +7,7 @@ def delPar(lista):
 
 a = 0
 b = 0
-lista = [1, 2, 3, -2, 4, 7, 0, -4, 3]
+lista = [1, -2, 3, -2, 4, 7, 0, -4, -3]
 
 
 delPar(lista)
@@ -17,6 +17,7 @@ print("lista original:", lista)
 for i in lista:
     if i < a:
         l = lista.index(i)
+        print ("se va a eliminar el elemento",i,"con indice",l)
         lista.remove(i)
         lista.insert(l, b)
 print("nueva lista:", lista)
