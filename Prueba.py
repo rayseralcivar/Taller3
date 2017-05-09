@@ -7,9 +7,9 @@ def delPar(lista):
 
 a = 0
 b = 0
-lista = [1, 2, 3, -2, 4, 7, 3, -4, 3]
+lista = [1, 2, 3, -2, 4, 7, 0, -4, 3]
 
-mayor(lista)
+
 delPar(lista)
 
 
